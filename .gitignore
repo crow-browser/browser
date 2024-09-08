@@ -1,0 +1,6 @@
+
+.dotbuild/
+.seed/
+.engine/
+firefox-*/
+node_modules/

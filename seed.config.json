@@ -1,0 +1,49 @@
+{
+  "name": "Crow Browser",
+  "vendor": "Crow Project",
+  "appId": "works.damie.crow.browser",
+  "binaryName": "crow-browser",
+  "version": {
+    "product": "firefox",
+    "version": "130.0"
+  },
+  "brands": {
+    "stable": {
+      "backgroundColor": "#0E0E0E",
+      "brandShorterName": "Crow",
+      "brandShortName": "Crow Browser",
+      "brandFullName": "Crow Browser",
+      "release": {
+        "displayVersion": "1.0.0",
+        "github": {
+          "repo": "crow-browser/browser"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    },
+    "nightly": {
+      "backgroundColor": "#020478",
+      "brandShorterName": "Crow",
+      "brandShortName": "Crow Browser",
+      "brandFullName": "Crow Browser Nightly",
+      "release": {
+        "displayVersion": "1.0.0-n.0",
+        "github": {
+          "repo": "crow-browser/browser"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    }
+  },
+  "buildOptions": {
+    "windowsUseSymbolicLinks": false
+  }
+}
