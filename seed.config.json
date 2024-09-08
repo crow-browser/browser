@@ -7,6 +7,18 @@
     "product": "firefox",
     "version": "130.0"
   },
+  "buildOptions": {
+    "windowsUseSymbolicLinks": false
+  },
+  "addons": {
+    "ublock": {
+      "platform": "github",
+      "id": "uBlock0@raymondhill.net",
+      "repo": "gorhill/uBlock",
+      "version": "1.54.0",
+      "fileGlob": "uBlock0_*.firefox(.signed)?.xpi"
+    }
+  },
   "brands": {
     "stable": {
       "backgroundColor": "#0E0E0E",
@@ -43,7 +55,10 @@
       }
     }
   },
-  "buildOptions": {
-    "windowsUseSymbolicLinks": false
+  "license": {
+    "ignoredFiles": [
+      ".*\\.json"
+    ],
+    "licenseType": "MPL-2.0"
   }
 }

@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@crow-browser/seed": "^1.1.19"
+	}
+}
